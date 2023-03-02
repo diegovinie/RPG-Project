@@ -36,3 +36,5 @@
 - Hints
   - In play mode copy component values and paste them after in edit mode
 
+### Ep 02
+TODO
