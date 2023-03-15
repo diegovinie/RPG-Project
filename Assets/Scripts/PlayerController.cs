@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
              }
         }
 
-                if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
              Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 

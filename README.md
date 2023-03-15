@@ -69,3 +69,12 @@ TODO
 
   - The blend *parameter* rename it to *speedPercent*
   
+### Ep 04
+
+- heritance `ItemPickup : Interactable`
+- For avoid error, check if *interactionTramsform* is null
+- Instead of using json for data driven objects, use `Item : ScriptableObject`
+- For override properties use **new**
+- `[CreateAssetMenu()]` for creating a menu entry
+  ![image](notes/images/ep04-01.png)
+
