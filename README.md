@@ -78,3 +78,27 @@ TODO
 - `[CreateAssetMenu()]` for creating a menu entry
   ![image](notes/images/ep04-01.png)
 
+### Ep 05
+
+#### Import sprites
+![image](notes/images/ep05-001.png)
+
+#### Fix sprite borders
+- Install sprites 2D
+![image](notes/images/ep05-002.png)
+- Mark borders
+![image](notes/images/ep05-003.png)
+- Change image type in the consumer
+![image](notes/images/ep05-004.png)
+
+
+![image](notes/images/ep05-005.png)
+
+#### Make the inventory to scale
+![image](notes/images/ep05-006.png)
+
+#### Final setup
+- delete the placeholder
+- Disable the image
+- Make close button non interactable
+- change the disabled alpha
