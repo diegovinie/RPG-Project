@@ -102,3 +102,21 @@ TODO
 - Disable the image
 - Make close button non interactable
 - change the disabled alpha
+
+
+### Ep 06
+
+- Useful methods:
+`slots = itemsParent.GetComponentsInChildren<InventorySlot>();`
+
+- avoiding moving the player when interacting with inventory.
+```
+using UnityEngine.EventSystems;
+
+EventSystem.current.IsPointerOverGameObject()
+```
+- Add new buttons
+`Input.GetButtonDown("Inventory")`
+![image](notes/images/ep06-001.png)
+
+
