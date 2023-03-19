@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4132f9d4211f6be3a73716ff50f0935, type: 3}
-  m_Name: Sword of Destiny
+  m_Name: Helmet
   m_EditorClassIdentifier: 
-  name: Sword of Destiny
-  icon: {fileID: 21300000, guid: 372a65b92fcc80a22a7b9c1e6409e0e3, type: 3}
+  name: Helmet
+  icon: {fileID: 21300000, guid: f1c2fa7c53af57dccaa8c16b97488bfe, type: 3}
   isDefaultItem: 0
-  equipSlot: 3
-  armorModifier: 0
-  damageModifier: 3
+  equipSlot: 0
+  mesh: {fileID: 6319945395643437279, guid: 3e32ca9afa483ce4f935a1b1d2bc0448, type: 3}
+  coveredMeshRegions: 
+  armorModifier: 2
+  damageModifier: 1

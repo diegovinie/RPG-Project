@@ -120,3 +120,46 @@ EventSystem.current.IsPointerOverGameObject()
 ![image](notes/images/ep06-001.png)
 
 
+### Ep 08
+
+- Export to FBX from Blender
+- To avoid losing the settings, replace the Player.fbx right in the Character folder
+- Extract the Materials and drop the smoothness to 0
+- Unpack the player prefab, it's not needed
+
+> If you have half of the clothes visible on the guy and the hair is all glitched just go to blender model and on hair, shirt, pants and shoes right click the corresponding collection then visiblity > enable in viewports and then save it reimport it in unity like Sebastian showed you to and you are good to go
+
+
+
+
+#### Body interceptions
+Control the blendShape value depending on what is the player wearing.
+
+> Whoever is having a problem with blendShapes, I found a solution, that is if anyone is still taking this tutorial. 
+Before importing the character into unity, first open it up in blender, then without touching anything on the bottom right corner of the screen, you should see legs, arms torso, scroll under that and you'll see relative, uncheck that, and ur good to go. 
+Also if ur having issues with the default items showing up just half,  apply the mirror modifiers in the hair, pants, shirt and shoes, before exporting and that should fix it.
+Lastly if ur at the end of the video and u reset the armor transform and they disappear, scale each one to 200 on the x, y and z. Pheww, that's it, hope someone finds this helpful, don't give up on ur gamedev journey and have fun
+
+> Just an add on to this, if you have a set up in which untagging relative would break your setup, there are some other solutions depending on your issue.  If you're using code driven blendshapes but they're overwritten by an animation (usually one involving corrective shape keys), you can put all the logic that drives the blendshapes in your unity code into LateUpdate() (literally just type Late in front of the Update function).  This function will call at the end of the frame, I'm pretty sure it's the last thing called, and overwrite any baked animations you'd want to override.
+
+#### Making pickup meshes
+- Drop the skinned meshes into the scene
+- Add the convert script to them
+- Delete the mesh filter and mesh renderer from the pickups and put the new meshes inside
+- Adjust box collider
+
+#### New concepts
+- SkinnedMeshRenderer
+- MeshRenderer
+- MeshFilter
+- DestroyInmmediate()
+- Instantiate<SkinnedMeshRenderer>(newItem.mesh)
+- mesh.bones
+- mesh.rootBone
+- blendShapes
+- casting enums
+- [ContextMenu("Convert to regular mesh")]
+
+
+
+ 
