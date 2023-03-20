@@ -162,3 +162,14 @@ Lastly if ur at the end of the video and u reset the armor transform and they di
 
 ### Ep 09
 Nothing
+
+### Ep 10
+
+#### Create the enemy
+Make sure the the enemy pivot is at the bottom
+![image](notes/images/ep10-001.png)
+
+
+### Add nav mesh agent
+Remember to use `using UnityEngine.AI;`
+![image](notes/images/ep10-001.png)
