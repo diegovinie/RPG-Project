@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4132f9d4211f6be3a73716ff50f0935, type: 3}
-  m_Name: Default Pants
+  m_Name: Pants
   m_EditorClassIdentifier: 
   name: Default Pants
   icon: {fileID: 0}
