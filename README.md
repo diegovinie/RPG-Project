@@ -7,19 +7,19 @@
 
 
 - Change **colorset** from gamma to linear, *Project Settings > Player > Other Settings > Color Space*
-- 
+-
 - Enable **pivot** to see the origin at the bottom
 
 - Player
   - Add capsule collider
-  - Add Rigidbody: Enable is Kinematic to make it works with the 
+  - Add Rigidbody: Enable is Kinematic to make it works with the
   - Add Nav Mesh Agent: this allows player movements
     - To set the walkable space:
       - Add Navigation window
       - To see the walkable areas *Navgation > Bake > Bake button*
       - Object marked as static: *Navigation > Object > Navigation Area*
       - Nav Mesh Obstacle and check carv to create an unwalkable area that updates in RT
-  
+
 - Raycasting: Add new layer called Ground
 
 - New concepts
@@ -30,7 +30,7 @@
     - yaw
     - pitch
 
-- To change the fog: 
+- To change the fog:
     ![image](notes/images/ep01-1.png)
 
 - Hints
@@ -42,9 +42,9 @@ TODO
 ### Ep 03
 
 #### Importing the avatar
-  - Error importing the animation clips [check this issue](https://issuetracker.unity3d.com/issues/using-multiple-animation-clips-in-blender-not-all-animation-clips-are-imported-using-a-blend-file) 
+  - Error importing the animation clips [check this issue](https://issuetracker.unity3d.com/issues/using-multiple-animation-clips-in-blender-not-all-animation-clips-are-imported-using-a-blend-file)
   - Recommended is to open the blender file and export to fbx
-  - Select T-pose, Apply and Done 
+  - Select T-pose, Apply and Done
   ![image](notes/images/ep03-02.png)
   - COnfigure the animations
   ![image](notes/images/ep03-03.png)
@@ -68,7 +68,7 @@ TODO
   ![image](notes/images/ep03-06.png)
 
   - The blend *parameter* rename it to *speedPercent*
-  
+
 ### Ep 04
 
 - heritance `ItemPickup : Interactable`
@@ -135,8 +135,8 @@ EventSystem.current.IsPointerOverGameObject()
 #### Body interceptions
 Control the blendShape value depending on what is the player wearing.
 
-> Whoever is having a problem with blendShapes, I found a solution, that is if anyone is still taking this tutorial. 
-Before importing the character into unity, first open it up in blender, then without touching anything on the bottom right corner of the screen, you should see legs, arms torso, scroll under that and you'll see relative, uncheck that, and ur good to go. 
+> Whoever is having a problem with blendShapes, I found a solution, that is if anyone is still taking this tutorial.
+Before importing the character into unity, first open it up in blender, then without touching anything on the bottom right corner of the screen, you should see legs, arms torso, scroll under that and you'll see relative, uncheck that, and ur good to go.
 Also if ur having issues with the default items showing up just half,  apply the mirror modifiers in the hair, pants, shirt and shoes, before exporting and that should fix it.
 Lastly if ur at the end of the video and u reset the armor transform and they disappear, scale each one to 200 on the x, y and z. Pheww, that's it, hope someone finds this helpful, don't give up on ur gamedev journey and have fun
 
@@ -160,6 +160,5 @@ Lastly if ur at the end of the video and u reset the armor transform and they di
 - casting enums
 - [ContextMenu("Convert to regular mesh")]
 
-
-
- 
+### Ep 09
+Nothing
